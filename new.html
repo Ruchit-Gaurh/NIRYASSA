@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIRYASSA</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+    <video autoplay playinline muted loop preload>
+        <source src="video1.mp4">
+    </video>
+    <svg height="100%" width="100%">
+        <defs>
+            <mask id="mask" x="0" y="0" height="100%" width="100%">
+                <rect x="0" y="0" height="100%" width="100%"/>
+                <text x="50%" y="50%" fill="red" text-anchor="middle">NIRYASSA</text>   
+            </mask>
+        </defs>
+        <rect x="0" y="0" height="100%" width="100%"/>
+    </svg>
+
+    <script>
+        let type = document.querySelector('text')
+
+        setTimeout(() => {
+            type.innerHTML = "COMMING SOON..."
+        }, 5000)
+    </script>
+</body>
+</html>
